@@ -13,6 +13,7 @@
 		1EFD692A2C359D830099F020 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD69292C359D830099F020 /* Base */; };
 		1EFD692C2C359D840099F020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD692B2C359D840099F020 /* Assets.xcassets */; };
 		1EFD692F2C359D840099F020 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1EFD692E2C359D840099F020 /* Base */; };
+		1EFD69372C359EB50099F020 /* AyarlarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD69362C359EB50099F020 /* AyarlarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1EFD692B2C359D840099F020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EFD692E2C359D840099F020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EFD69302C359D840099F020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFD69362C359EB50099F020 /* AyarlarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1EFD69222C359D830099F020 /* AppDelegate.swift */,
 				1EFD69242C359D830099F020 /* SceneDelegate.swift */,
 				1EFD69262C359D830099F020 /* ViewController.swift */,
+				1EFD69362C359EB50099F020 /* AyarlarVC.swift */,
 				1EFD69282C359D830099F020 /* Main.storyboard */,
 				1EFD692B2C359D840099F020 /* Assets.xcassets */,
 				1EFD692D2C359D840099F020 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				1EFD69272C359D830099F020 /* ViewController.swift in Sources */,
 				1EFD69232C359D830099F020 /* AppDelegate.swift in Sources */,
 				1EFD69252C359D830099F020 /* SceneDelegate.swift in Sources */,
+				1EFD69372C359EB50099F020 /* AyarlarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
