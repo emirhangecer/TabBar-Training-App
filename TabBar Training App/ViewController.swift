@@ -21,8 +21,24 @@ class ViewController: UIViewController {
             ayarlarItem.badgeValue  = "Yeni"
         }
         
+        let appearance = UITabBarAppearance()
+        
+        appearance.backgroundColor = UIColor.systemIndigo
+        
+        tabBarController?.tabBar.standardAppearance = appearance
+        tabBarController?.tabBar.scrollEdgeAppearance = appearance
+        
     }
 
+    func renkDegistir(itemAppearance:UITabBarItemAppearance){
+        
+        //Seçili Durum tab bar rengi
+        itemAppearance.selected.iconColor = UIColor.systemOrange
+        itemAppearance.selected.titleTextAttributes = [.foregroundColor : UIColor.systemOrange]
+        itemAppearance.selected.badgeBackgroundColor = UIColor.systemMint
+        //Seçili Olmayan durum tab bar rengi
+       
+    }
 
 }
 
