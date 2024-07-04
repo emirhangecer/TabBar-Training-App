@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         
         let appearance = UITabBarAppearance()
         
+        renkDegistir(itemAppearance: appearance.stackedLayoutAppearance)
+        renkDegistir(itemAppearance: appearance.inlineLayoutAppearance)
+        renkDegistir(itemAppearance: appearance.compactInlineLayoutAppearance)
+        
         appearance.backgroundColor = UIColor.systemIndigo
         
         tabBarController?.tabBar.standardAppearance = appearance
@@ -37,7 +41,9 @@ class ViewController: UIViewController {
         itemAppearance.selected.titleTextAttributes = [.foregroundColor : UIColor.systemOrange]
         itemAppearance.selected.badgeBackgroundColor = UIColor.systemMint
         //Seçili Olmayan durum tab bar rengi
-       
+        itemAppearance.normal.iconColor = UIColor.white
+        itemAppearance.normal.titleTextAttributes = [.foregroundColor : UIColor.white]
+        itemAppearance.normal.badgeBackgroundColor = UIColor.lightGray
     }
 
 }
